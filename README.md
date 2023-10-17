@@ -24,7 +24,7 @@ This data file includes data on each state's region. It includes a DIVISION fiel
 ### us_cities_by_state_SEPT.2023.csv
 This data file includes the articles we wish to investigate in this project. It includes a state field with the name of the state, a page_title field with the name of the article, and a url field with a url to the article.
 ### wp_scored_city_articles_by_state.csv
-This data file includes information on article quality for each of the articles. It includes a state field with the name of the state, a regional_division field with the region that article belongs to, a population field with the population of the state, an article_title field with the title of the article, a revision_id field with the revision version of the article, and an article_quality field with the ORES score for the article.
+This data file includes information on article quality for each of the articles. It includes a state field with the name of the state, a regional_division field with the region that the article belongs to, a population field with the population of the state, an article_title field with the title of the article, a revision_id field with the revision version of the article, and an article_quality field with the ORES score for the article.
 ## Special Considerations
 Both API requests take several hours to complete, so budget time accordingly and save upon completion.
 ## Research Implications
