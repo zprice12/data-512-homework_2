@@ -3,17 +3,17 @@
 The goal of this project is to create informative tables to investigate Wikipedia article quality for states and regions across the US, considering potential bias throughout the project.
 ## Licenses and Links
 Source Data License -  
-https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/  
 Wikipedia Crawl -  
-https://en.wikipedia.org/wiki/Category:Lists_of_cities_in_the_United_States_by_state
+https://en.wikipedia.org/wiki/Category:Lists_of_cities_in_the_United_States_by_state  
 Census Data -  
-https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html
+https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html  
 Wikipedia US Regions -  
-https://en.wikipedia.org/wiki/List_of_regions_of_the_United_States#Census_Bureau%E2%80%93designated_regions_and_divisions
+https://en.wikipedia.org/wiki/List_of_regions_of_the_United_States#Census_Bureau%E2%80%93designated_regions_and_divisions  
 ORES Information -  
-https://www.mediawiki.org/wiki/ORES
+https://www.mediawiki.org/wiki/ORES  
 Wikipedia Content Assessment -  
-https://en.wikipedia.org/wiki/Wikipedia:Content_assessment
+https://en.wikipedia.org/wiki/Wikipedia:Content_assessment  
 MediaWiki API Information -  
 https://www.mediawiki.org/wiki/API:Info
 ## Data Files
