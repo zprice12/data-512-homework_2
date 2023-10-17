@@ -26,4 +26,4 @@ This data file includes the articles we wish to investigate in this project. It 
 ### wp_scored_city_articles_by_state.csv
 This data file includes information on article quality for each of the articles. It includes a state field with the name of the state, a regional_division field with the region that article belongs to, a population field with the population of the state, an article_title field with the title of the article, a revision_id field with the revision version of the article, and an article_quality field with the ORES score for the article.
 ## Special Considerations
-A forward slash in article titles will cause and error with the urllib function in the API call. This can be fixed by setting safe=''.
+Both API requests take several hours to complete, so budget time accordingly and save upon completion.
