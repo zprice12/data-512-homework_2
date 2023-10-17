@@ -17,13 +17,13 @@ https://en.wikipedia.org/wiki/Wikipedia:Content_assessment
 MediaWiki API Information -  
 https://www.mediawiki.org/wiki/API:Info
 ## Data Files
-### thank_the_academy.AUG.2023.csv
-This data file includes the articles we wish to investigate in this project. It includes a name field with the name of the article and a url field with a url to each article.
-### academy_monthly_mobile_201507-202309.json
-This data file includes monthly mobile page requests for each article. It involves an article field with the name of the article, a timestamp field with year and month, and a views field that represents the total monthly views for each article.
-### academy_monthly_desktop_201507-202309.json
-This data file includes monthly desktop page requests for each article. It involves an article field with the name of the article, a timestamp field with year and month, and a views field that represents the total monthly views for each article.
-### academy_monthly_cumulative_201507-202309.json
-This data file includes monthly cumulative page requests for each article. It involves an article field with the name of the article, a timestamp field with year and month, and a views field that represents the total monthly views for each article.
+### state_pops.csv
+This data file includes census data with each state's population. It includes a state field with the name of the state and a population field with the population of the state.
+### us_regions.csv
+This data file includes data on each state's region. It includes a DIVISION field with the regional division of the state and a STATE field with the name of the state.
+### us_cities_by_state_SEPT.2023.csv
+This data file includes the articles we wish to investigate in this project. It includes a state field with the name of the state, a page_title field with the name of the article, and a url field with a url to the article.
+### wp_scored_city_articles_by_state.csv
+This data file includes information on article quality for each of the articles. It includes a state field with the name of the state, a regional_division field with the region that article belongs to, a population field with the population of the state, an article_title field with the title of the article, a revision_id field with the revision version of the article, and an article_quality field with the ORES score for the article.
 ## Special Considerations
 A forward slash in article titles will cause and error with the urllib function in the API call. This can be fixed by setting safe=''.
